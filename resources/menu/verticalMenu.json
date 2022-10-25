@@ -1,0 +1,64 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "menuHeader": "Pages"
+    },
+    {
+      "name": "Admins",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "auth",
+      "submenu": [
+        {
+          "url": "/admin",
+          "name": "All admins",
+          "slug": "admins"
+        },
+        {
+          "url": "/admin/create",
+          "name": "Create admins",
+          "slug": "admins"
+        }
+      ]
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "auth",
+      "submenu": [
+        {
+          "url": "/users",
+          "name": "All Users",
+          "slug": "User"
+        },
+        {
+          "url": "/users/create",
+          "name": "Create Users",
+          "slug": "User"
+        }
+      ]
+    },
+    {
+      "name": "Customers",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "auth",
+      "submenu": [
+        {
+          "url": "/customers",
+          "name": "All customers",
+          "slug": "customers"
+        },
+        {
+          "url": "/customers/create",
+          "name": "Create customers",
+          "slug": "customers"
+        }
+      ]
+    }
+  ]
+}
